@@ -23,7 +23,7 @@ public class AndroidBasics extends Utils{
 
 		
 		driver.findElement(AppiumBy.accessibilityId("Animation")).click();
-
+		System.out.println("Hello World");
 
 		
 	}
