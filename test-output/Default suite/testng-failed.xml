@@ -5,10 +5,8 @@
     <classes>
       <class name="mobileAutomation.ExerciseProject.AndroidBasics">
         <methods>
-          <include name="PlayAction"/>
-          <include name="AccessAnimations"/>
           <include name="ConfigureAppium"/>
-          <include name="AccessPreferences"/>
+          <include name="OnOffTrigger"/>
         </methods>
       </class> <!-- mobileAutomation.ExerciseProject.AndroidBasics -->
     </classes>

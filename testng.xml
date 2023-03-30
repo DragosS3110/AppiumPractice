@@ -12,5 +12,10 @@
       <class name="mobileAutomation.ExerciseProject.OtherTests"/>
     </classes>
   </test> <!-- Test -->
+      <test thread-count="5" name="Assertion Tests">
+    <classes>
+      <class name="mobileAutomation.ExerciseProject.AssertionTest"/>
+    </classes>
+  </test> <!-- Test -->
   
 </suite> <!-- Suite -->
