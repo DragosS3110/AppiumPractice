@@ -5,10 +5,10 @@
     <classes>
       <class name="mobileAutomation.ExerciseProject.AndroidBasics">
         <methods>
-          <include name="tearDown"/>
-          <include name="AccessAnimations"/>
           <include name="PlayAction"/>
+          <include name="AccessAnimations"/>
           <include name="ConfigureAppium"/>
+          <include name="AccessPreferences"/>
         </methods>
       </class> <!-- mobileAutomation.ExerciseProject.AndroidBasics -->
     </classes>

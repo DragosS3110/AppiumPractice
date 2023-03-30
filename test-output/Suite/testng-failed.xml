@@ -5,9 +5,8 @@
     <classes>
       <class name="mobileAutomation.ExerciseProject.AndroidBasics">
         <methods>
-          <include name="tearDown"/>
-          <include name="AccessAnimations"/>
           <include name="PlayAction"/>
+          <include name="AccessAnimations"/>
           <include name="ConfigureAppium"/>
           <include name="AccessPreferences"/>
         </methods>
@@ -18,7 +17,6 @@
     <classes>
       <class name="mobileAutomation.ExerciseProject.OtherTests">
         <methods>
-          <include name="tearDown"/>
           <include name="AccessPreferences"/>
           <include name="ConfigureAppium"/>
         </methods>
