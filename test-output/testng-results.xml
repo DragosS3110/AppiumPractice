@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-30T15:03:09 EEST" name="Suite" finished-at="2023-03-30T15:03:35 EEST" duration-ms="25937">
+  <suite started-at="2023-03-30T15:49:48 EEST" name="Suite" finished-at="2023-03-30T15:50:17 EEST" duration-ms="29237">
     <groups>
     </groups>
-    <test started-at="2023-03-30T15:03:09 EEST" name="Main Tests" finished-at="2023-03-30T15:03:18 EEST" duration-ms="9103">
+    <test started-at="2023-03-30T15:49:48 EEST" name="Main Tests" finished-at="2023-03-30T15:49:58 EEST" duration-ms="10023">
       <class name="mobileAutomation.ExerciseProject.AndroidBasics">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:mobileAutomation.ExerciseProject.AndroidBasics@41e36e46]" started-at="2023-03-30T15:03:09 EEST" name="ConfigureAppium" finished-at="2023-03-30T15:03:14 EEST" duration-ms="5385" status="PASS">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:mobileAutomation.ExerciseProject.AndroidBasics@41e36e46]" started-at="2023-03-30T15:49:48 EEST" name="ConfigureAppium" finished-at="2023-03-30T15:49:54 EEST" duration-ms="6340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="AccessPreferences()[pri:1, instance:mobileAutomation.ExerciseProject.AndroidBasics@41e36e46]" started-at="2023-03-30T15:03:14 EEST" name="AccessPreferences" finished-at="2023-03-30T15:03:17 EEST" duration-ms="2219" status="PASS">
+        <test-method signature="AccessPreferences()[pri:1, instance:mobileAutomation.ExerciseProject.AndroidBasics@41e36e46]" started-at="2023-03-30T15:49:54 EEST" name="AccessPreferences" finished-at="2023-03-30T15:49:56 EEST" duration-ms="2175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccessPreferences -->
-        <test-method signature="AccessAnimations()[pri:2, instance:mobileAutomation.ExerciseProject.AndroidBasics@41e36e46]" started-at="2023-03-30T15:03:17 EEST" name="AccessAnimations" finished-at="2023-03-30T15:03:18 EEST" duration-ms="1378" status="PASS">
+        <test-method signature="AccessAnimations()[pri:2, instance:mobileAutomation.ExerciseProject.AndroidBasics@41e36e46]" started-at="2023-03-30T15:49:56 EEST" name="AccessAnimations" finished-at="2023-03-30T15:49:57 EEST" duration-ms="1374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccessAnimations -->
-        <test-method signature="PlayAction()[pri:3, instance:mobileAutomation.ExerciseProject.AndroidBasics@41e36e46]" started-at="2023-03-30T15:03:18 EEST" name="PlayAction" finished-at="2023-03-30T15:03:18 EEST" duration-ms="88" status="PASS">
+        <test-method signature="PlayAction()[pri:3, instance:mobileAutomation.ExerciseProject.AndroidBasics@41e36e46]" started-at="2023-03-30T15:49:57 EEST" name="PlayAction" finished-at="2023-03-30T15:49:58 EEST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PlayAction -->
       </class> <!-- mobileAutomation.ExerciseProject.AndroidBasics -->
     </test> <!-- Main Tests -->
-    <test started-at="2023-03-30T15:03:18 EEST" name="Secondary Tests" finished-at="2023-03-30T15:03:26 EEST" duration-ms="7480">
+    <test started-at="2023-03-30T15:49:58 EEST" name="Secondary Tests" finished-at="2023-03-30T15:50:08 EEST" duration-ms="10334">
       <class name="mobileAutomation.ExerciseProject.OtherTests">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:mobileAutomation.ExerciseProject.OtherTests@1a451d4d]" started-at="2023-03-30T15:03:18 EEST" name="ConfigureAppium" finished-at="2023-03-30T15:03:23 EEST" duration-ms="5085" status="PASS">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:mobileAutomation.ExerciseProject.OtherTests@1a451d4d]" started-at="2023-03-30T15:49:58 EEST" name="ConfigureAppium" finished-at="2023-03-30T15:50:03 EEST" duration-ms="5608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="AccessPreferences()[pri:4, instance:mobileAutomation.ExerciseProject.OtherTests@1a451d4d]" started-at="2023-03-30T15:03:23 EEST" name="AccessPreferences" finished-at="2023-03-30T15:03:26 EEST" duration-ms="2390" status="PASS">
+        <test-method signature="AccessPreferences()[pri:4, instance:mobileAutomation.ExerciseProject.OtherTests@1a451d4d]" started-at="2023-03-30T15:50:03 EEST" name="AccessPreferences" finished-at="2023-03-30T15:50:08 EEST" duration-ms="4723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccessPreferences -->
       </class> <!-- mobileAutomation.ExerciseProject.OtherTests -->
     </test> <!-- Secondary Tests -->
-    <test started-at="2023-03-30T15:03:26 EEST" name="Assertion Tests" finished-at="2023-03-30T15:03:35 EEST" duration-ms="9315">
+    <test started-at="2023-03-30T15:50:08 EEST" name="Assertion Tests" finished-at="2023-03-30T15:50:17 EEST" duration-ms="8841">
       <class name="mobileAutomation.ExerciseProject.AssertionTest">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:mobileAutomation.ExerciseProject.AssertionTest@5e0826e7]" started-at="2023-03-30T15:03:26 EEST" name="ConfigureAppium" finished-at="2023-03-30T15:03:31 EEST" duration-ms="4932" status="PASS">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:mobileAutomation.ExerciseProject.AssertionTest@5e0826e7]" started-at="2023-03-30T15:50:08 EEST" name="ConfigureAppium" finished-at="2023-03-30T15:50:13 EEST" duration-ms="5157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="OnOffTrigger()[pri:5, instance:mobileAutomation.ExerciseProject.AssertionTest@5e0826e7]" started-at="2023-03-30T15:03:31 EEST" name="OnOffTrigger" finished-at="2023-03-30T15:03:35 EEST" duration-ms="4378" status="PASS">
+        <test-method signature="OnOffTrigger()[pri:5, instance:mobileAutomation.ExerciseProject.AssertionTest@5e0826e7]" started-at="2023-03-30T15:50:13 EEST" name="OnOffTrigger" finished-at="2023-03-30T15:50:17 EEST" duration-ms="3680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OnOffTrigger -->
