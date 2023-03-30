@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mobileAutomation.ExerciseProject.AndroidBasics">
+      <class name="mobileAutomation.ExerciseProject.iOSBasics">
         <methods>
+          <include name="AccessPreferences"/>
           <include name="ConfigureAppium"/>
-          <include name="OnOffTrigger"/>
         </methods>
-      </class> <!-- mobileAutomation.ExerciseProject.AndroidBasics -->
+      </class> <!-- mobileAutomation.ExerciseProject.iOSBasics -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

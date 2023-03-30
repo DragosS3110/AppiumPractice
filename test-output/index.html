@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,6 +118,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mobileAutomation.ExerciseProject.iOSBasics" class="method navigator-link" hash-for-method="AccessPreferences">AccessPreferences</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="mobileAutomation.ExerciseProject.AssertionTest" class="method navigator-link" hash-for-method="OnOffTrigger">OnOffTrigger</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -138,6 +143,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mobileAutomation.ExerciseProject.iOSBasics</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AccessPreferences">
+                  </a> <!-- AccessPreferences -->
+                  <span class="method-name">AccessPreferences</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -222,6 +242,11 @@
       &lt;class name=&quot;mobileAutomation.ExerciseProject.AssertionTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Assertion Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;iOS Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mobileAutomation.ExerciseProject.iOSBasics&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- iOS Tests --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -240,6 +265,9 @@
               </li>
               <li>
                 <span class="test-name">Assertion Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">iOS Tests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -265,27 +293,31 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'AccessPreferences')
 data.setCell(0, 2, 'mobileAutomation.ExerciseProject.OtherTests')
-data.setCell(0, 3, 4723);
+data.setCell(0, 3, 4774);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'OnOffTrigger')
 data.setCell(1, 2, 'mobileAutomation.ExerciseProject.AssertionTest')
-data.setCell(1, 3, 3680);
+data.setCell(1, 3, 4035);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'AccessPreferences')
 data.setCell(2, 2, 'mobileAutomation.ExerciseProject.AndroidBasics')
-data.setCell(2, 3, 2175);
+data.setCell(2, 3, 2117);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'AccessAnimations')
 data.setCell(3, 2, 'mobileAutomation.ExerciseProject.AndroidBasics')
-data.setCell(3, 3, 1374);
+data.setCell(3, 3, 1346);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'PlayAction')
-data.setCell(4, 2, 'mobileAutomation.ExerciseProject.AndroidBasics')
-data.setCell(4, 3, 92);
+data.setCell(4, 1, 'AccessPreferences')
+data.setCell(4, 2, 'mobileAutomation.ExerciseProject.iOSBasics')
+data.setCell(4, 3, 621);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'PlayAction')
+data.setCell(5, 2, 'mobileAutomation.ExerciseProject.AndroidBasics')
+data.setCell(5, 3, 103);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -323,37 +355,48 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">AccessPreferences</span>
-                <span class="method-start">6346 ms</span>
+                <span class="method-start">7811 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">AccessAnimations</span>
-                <span class="method-start">8530 ms</span>
+                <span class="method-start">9935 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PlayAction</span>
-                <span class="method-start">9908 ms</span>
+                <span class="method-start">11285 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">mobileAutomation.ExerciseProject.OtherTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">ConfigureAppium</span>
-                <span class="method-start">10032 ms</span>
+                <span class="method-start">11626 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">AccessPreferences</span>
-                <span class="method-start">15641 ms</span>
+                <span class="method-start">17228 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">mobileAutomation.ExerciseProject.AssertionTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">ConfigureAppium</span>
-                <span class="method-start">20377 ms</span>
+                <span class="method-start">22010 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">OnOffTrigger</span>
-                <span class="method-start">25535 ms</span>
+                <span class="method-start">27025 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mobileAutomation.ExerciseProject.iOSBasics</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">31071 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AccessPreferences</span>
+                <span class="method-start">34860 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

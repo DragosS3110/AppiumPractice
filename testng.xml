@@ -12,9 +12,15 @@
       <class name="mobileAutomation.ExerciseProject.OtherTests"/>
     </classes>
   </test> <!-- Test -->
+  
       <test thread-count="5" name="Assertion Tests">
     <classes>
       <class name="mobileAutomation.ExerciseProject.AssertionTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="iOS Tests">
+    <classes>
+      <class name="mobileAutomation.ExerciseProject.iOSBasics"/>
     </classes>
   </test> <!-- Test -->
   
