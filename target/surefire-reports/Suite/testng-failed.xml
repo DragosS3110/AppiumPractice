@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Main Tests(failed)" verbose="0">
+    <classes>
+      <class name="mobileAutomation.ExerciseProject.AndroidBasics">
+        <methods>
+          <include name="tearDown"/>
+          <include name="PlayAction"/>
+          <include name="AccessAnimations"/>
+          <include name="ConfigureAppium"/>
+          <include name="AccessPreferences"/>
+        </methods>
+      </class> <!-- mobileAutomation.ExerciseProject.AndroidBasics -->
+    </classes>
+  </test> <!-- Main Tests(failed) -->
+  <test thread-count="5" name="Secondary Tests(failed)" verbose="0">
+    <classes>
+      <class name="mobileAutomation.ExerciseProject.OtherTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="AccessPreferences"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- mobileAutomation.ExerciseProject.OtherTests -->
+    </classes>
+  </test> <!-- Secondary Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
