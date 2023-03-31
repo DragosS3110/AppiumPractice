@@ -12,7 +12,7 @@ import io.appium.java_client.AppiumBy;
 
 public class OtherTests extends Utils{
 
-	@Test(priority=4)
+	@Test(priority=1)
 	public void AccessPreferences()
 	{
 

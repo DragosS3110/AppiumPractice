@@ -8,8 +8,29 @@
           <include name="PlayAction"/>
           <include name="AccessAnimations"/>
           <include name="ConfigureAppium"/>
+          <include name="AccessPreferences"/>
         </methods>
       </class> <!-- mobileAutomation.ExerciseProject.AndroidBasics -->
     </classes>
   </test> <!-- Main Tests(failed) -->
+  <test thread-count="5" name="Secondary Tests(failed)">
+    <classes>
+      <class name="mobileAutomation.ExerciseProject.OtherTests">
+        <methods>
+          <include name="AccessPreferences"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- mobileAutomation.ExerciseProject.OtherTests -->
+    </classes>
+  </test> <!-- Secondary Tests(failed) -->
+  <test thread-count="5" name="Assertion Tests(failed)">
+    <classes>
+      <class name="mobileAutomation.ExerciseProject.AssertionTest">
+        <methods>
+          <include name="ConfigureAppium"/>
+          <include name="OnOffTrigger"/>
+        </methods>
+      </class> <!-- mobileAutomation.ExerciseProject.AssertionTest -->
+    </classes>
+  </test> <!-- Assertion Tests(failed) -->
 </suite> <!-- Failed suite [Suite] -->
