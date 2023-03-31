@@ -29,9 +29,11 @@ public class iOSBasics extends UtilsiOS{
 		if(i==10) {
 		Assert.assertEquals(result.getAttribute("name"), "10");
 		Assert.assertEquals(defaultPlus.getAttribute("enabled"),"false");
+		
 
 		}
 		}
+		defaultMinus.click();
 
 }
 }
