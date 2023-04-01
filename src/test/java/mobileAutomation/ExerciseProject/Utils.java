@@ -67,9 +67,18 @@ public class Utils {
 			    "direction", direction,
 			    "percent", 0.75
 			));
+		}
+
+	public void dragAndDrop (WebElement ele1, int x, int y) {
+		((JavascriptExecutor) driver).executeScript("mobile: dragGesture", ImmutableMap.of(
+			    "elementId", ((RemoteWebElement) ele1).getId(),
+			    "endX", x,
+			    "endY", y,
+			    "speed", 100
+			));
 
 	}
-
+	
 	public void tearDown() {
 		driver.quit();
 	}
