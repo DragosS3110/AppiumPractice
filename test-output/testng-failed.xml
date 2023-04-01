@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mobileAutomation.ExerciseProject.LongPress">
+      <class name="mobileAutomation.ExerciseProject.Scroll">
         <methods>
-          <include name="MobileGestures"/>
+          <include name="ScrollAction"/>
           <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- mobileAutomation.ExerciseProject.LongPress -->
+      </class> <!-- mobileAutomation.ExerciseProject.Scroll -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

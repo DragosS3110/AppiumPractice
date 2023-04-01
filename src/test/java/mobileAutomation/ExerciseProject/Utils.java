@@ -10,6 +10,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.AfterClass;
@@ -34,7 +35,7 @@ public class Utils {
 		//service.start();
 		
 		UiAutomator2Options options = new UiAutomator2Options();
-		options.setDeviceName("MainPhone");
+		options.setDeviceName("SecondPhone");
 		options.setApp("//Users//dragossomlea//eclipse-workspace//ExerciseProject//src//test//java//resources//ApiDemos-debug.apk");
 		
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
@@ -43,6 +44,20 @@ public class Utils {
 	public void longPressAction (WebElement ele) {
 		driver.executeScript("mobile: longClickGesture", ImmutableMap.of(
 			    "elementId", ((RemoteWebElement)ele).getId(),"duration", 2000));
+	}
+	public void scrollToEnd() {
+		
+		//Scroll in a direction (without knowing exactly when to stop) - not that reliable for multiple scrolling
+		//and can crash app
+		boolean canScrollMore;
+		do {
+            canScrollMore = (Boolean) ((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
+		    "left", 100, "top", 100, "width", 200, "height", 200,
+		    "direction", "down",
+		    "percent", 3.0
+		));
+            }
+	while(canScrollMore);
 	}
 
 	public void tearDown() {
