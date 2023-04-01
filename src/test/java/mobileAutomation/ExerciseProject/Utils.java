@@ -43,7 +43,8 @@ public class Utils {
 	//Gestures
 	public void longPressAction (WebElement ele) {
 		driver.executeScript("mobile: longClickGesture", ImmutableMap.of(
-			    "elementId", ((RemoteWebElement)ele).getId(),"duration", 2000));
+			    "elementId", ((RemoteWebElement)ele).getId(),
+			    "duration", 2000));
 	}
 	public void scrollToEnd() {
 		
@@ -58,6 +59,15 @@ public class Utils {
 		));
             }
 	while(canScrollMore);
+	}
+	
+	public void swipeOnElement (WebElement ele, String direction) {
+		((JavascriptExecutor) driver).executeScript("mobile: swipeGesture", ImmutableMap.of(
+				"elementId", ((RemoteWebElement)ele).getId(),
+			    "direction", direction,
+			    "percent", 0.75
+			));
+
 	}
 
 	public void tearDown() {
