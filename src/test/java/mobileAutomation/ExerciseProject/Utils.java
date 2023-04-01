@@ -2,11 +2,16 @@ package mobileAutomation.ExerciseProject;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+
+import com.google.common.collect.ImmutableMap;
+
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -33,6 +38,11 @@ public class Utils {
 		options.setApp("//Users//dragossomlea//eclipse-workspace//ExerciseProject//src//test//java//resources//ApiDemos-debug.apk");
 		
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
+	}
+	//Gestures
+	public void longPressAction (WebElement ele) {
+		driver.executeScript("mobile: longClickGesture", ImmutableMap.of(
+			    "elementId", ((RemoteWebElement)ele).getId(),"duration", 2000));
 	}
 
 	public void tearDown() {

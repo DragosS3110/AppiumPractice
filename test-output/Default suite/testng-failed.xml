@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mobileAutomation.ExerciseProject.iOSBasics">
+      <class name="mobileAutomation.ExerciseProject.LongPress">
         <methods>
-          <include name="AccessPreferences"/>
+          <include name="MobileGestures"/>
           <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- mobileAutomation.ExerciseProject.iOSBasics -->
+      </class> <!-- mobileAutomation.ExerciseProject.LongPress -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
