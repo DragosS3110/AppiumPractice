@@ -10,6 +10,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.DeviceRotation;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
@@ -77,6 +78,15 @@ public class Utils {
 			    "speed", 100
 			));
 
+	}
+	public void toLandscape () {
+		DeviceRotation landScape = new DeviceRotation(0, 0, 90);
+		driver.rotate(landScape);
+	}
+	
+	public void toPortrait() {
+		DeviceRotation portrait = new DeviceRotation(0, 0, 0);
+		driver.rotate(portrait);
 	}
 	
 	public void tearDown() {

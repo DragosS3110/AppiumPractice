@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-01T22:57:11 EEST" name="Default suite" finished-at="2023-04-01T22:57:25 EEST" duration-ms="14774">
+  <suite started-at="2023-04-03T10:33:10 EEST" name="Default suite" finished-at="2023-04-03T10:33:24 EEST" duration-ms="14044">
     <groups>
     </groups>
-    <test started-at="2023-04-01T22:57:11 EEST" name="Default test" finished-at="2023-04-01T22:57:25 EEST" duration-ms="14774">
-      <class name="mobileAutomation.ExerciseProject.DragDrop">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:mobileAutomation.ExerciseProject.DragDrop@3427b02d]" started-at="2023-04-01T22:57:11 EEST" name="ConfigureAppium" finished-at="2023-04-01T22:57:16 EEST" duration-ms="5102" status="PASS">
+    <test started-at="2023-04-03T10:33:10 EEST" name="Default test" finished-at="2023-04-03T10:33:24 EEST" duration-ms="14044">
+      <class name="mobileAutomation.ExerciseProject.Landscape">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:mobileAutomation.ExerciseProject.Landscape@41fbdac4]" started-at="2023-04-03T10:33:10 EEST" name="ConfigureAppium" finished-at="2023-04-03T10:33:14 EEST" duration-ms="4297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="DragAndDrop()[pri:1, instance:mobileAutomation.ExerciseProject.DragDrop@3427b02d]" started-at="2023-04-01T22:57:16 EEST" name="DragAndDrop" finished-at="2023-04-01T22:57:25 EEST" duration-ms="9652" status="PASS">
+        <test-method signature="AccessPreferences()[pri:1, instance:mobileAutomation.ExerciseProject.Landscape@41fbdac4]" started-at="2023-04-03T10:33:14 EEST" name="AccessPreferences" finished-at="2023-04-03T10:33:24 EEST" duration-ms="9727" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DragAndDrop -->
-      </class> <!-- mobileAutomation.ExerciseProject.DragDrop -->
+        </test-method> <!-- AccessPreferences -->
+      </class> <!-- mobileAutomation.ExerciseProject.Landscape -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
