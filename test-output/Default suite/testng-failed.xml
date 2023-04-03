@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mobileAutomation.ExerciseProject.Landscape">
+      <class name="mobileAutomation.ExerciseProject.Clipboard">
         <methods>
           <include name="AccessPreferences"/>
           <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- mobileAutomation.ExerciseProject.Landscape -->
+      </class> <!-- mobileAutomation.ExerciseProject.Clipboard -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
