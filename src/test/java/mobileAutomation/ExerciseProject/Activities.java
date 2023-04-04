@@ -1,6 +1,6 @@
 package mobileAutomation.ExerciseProject;
 
-import io.appium.java_client.android.Activity;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
@@ -15,19 +15,16 @@ import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 
-public class Clipboard extends Utils{
+public class Activities extends Utils{
 
 	@Test(priority=1)
-	public void Activities() throws InterruptedException
+	public void AccessPreferences() throws InterruptedException
 	{
 
-		Activity activity = new Activity("io.appium.android.apis", "io.appium.android.apis.preference.PreferenceDependencies");
 		
-		//driver.findElement(AppiumBy.accessibilityId("Preference")).click();
+		driver.findElement(AppiumBy.accessibilityId("Preference")).click();
 		
-		//driver.findElement(AppiumBy.accessibilityId("3. Preference dependencies")).click();
-		
-		driver.startActivity(activity);
+		driver.findElement(AppiumBy.accessibilityId("3. Preference dependencies")).click();
 		
 		WebElement wifiSettings = (WebElement)driver.findElement(By.xpath("(//android.widget.RelativeLayout)[2]"));
 		
